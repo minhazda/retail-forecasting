@@ -1,5 +1,20 @@
 # Retail Demand Forecasting Dashboard
 
+[![Live Demo](https://img.shields.io/badge/▶_Live_Demo-Streamlit-FF4B4B?logo=streamlit&logoColor=white)](https://retail-forecasting-hvdzvesi4u9l6fs5tvdoyi.streamlit.app/)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+**▶ Try it live:** https://retail-forecasting-hvdzvesi4u9l6fs5tvdoyi.streamlit.app/
+
+An interactive Streamlit app that forecasts SKU-level retail demand with what-if scenario controls (promotions, holidays, forecast horizon) and live accuracy metrics, built on privacy-preserving synthetic data.
+
+> 🔬 **Research artifact:** [synthetic-retail-forecasting](https://github.com/minhazda/synthetic-retail-forecasting) (preprint + DOI) · ⚙️ **Production pipeline:** [synthetic-retail-mlops-pipeline](https://github.com/minhazda/synthetic-retail-mlops-pipeline) (Docker · MLflow · FastAPI · CI/CD)
+
+<!-- TODO: add a screenshot. Take a PNG of the running app, save it as docs/screenshot.png, then uncomment the next line. -->
+<!-- ![Dashboard screenshot](docs/screenshot.png) -->
+
+---
+
 ## Overview
 This interactive dashboard is designed to assist store managers and retail planners in accurately predicting future product demand. Rather than relying on intuition, it leverages machine learning techniques to analyze historical sales data and generate data-driven forecasts.
 
@@ -7,7 +22,7 @@ This interactive dashboard is designed to assist store managers and retail plann
 The dashboard evaluates multiple factors that influence consumer purchasing behavior, including:
 
 - **Weekly Patterns:** Identifies recurring sales fluctuations, such as increased demand during weekends.
-- **Trends:** Detects whether a product’s popularity is increasing or declining over time.
+- **Trends:** Detects whether a product's popularity is increasing or declining over time.
 - **Promotions:** Quantifies the impact of discounts and promotional campaigns on sales volume.
 - **Holidays & Seasonality:** Incorporates seasonal effects and high-demand periods, such as year-end holidays.
 
@@ -22,5 +37,5 @@ To ensure data privacy and compliance with regulations (e.g., GDPR), this applic
 
 ---
 
-**Created by MD Minhazur Rahman**  
+**Created by MD Minhazur Rahman**
 *MSc Data Science Project*
