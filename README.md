@@ -10,8 +10,7 @@ An interactive Streamlit app that forecasts SKU-level retail demand with what-if
 
 > 🔬 **Research artifact:** [synthetic-retail-forecasting](https://github.com/minhazda/synthetic-retail-forecasting) (preprint + DOI) · ⚙️ **Production pipeline:** [synthetic-retail-mlops-pipeline](https://github.com/minhazda/synthetic-retail-mlops-pipeline) (Docker · MLflow · FastAPI · CI/CD)
 
-<!-- TODO: add a screenshot. Take a PNG of the running app, save it as docs/screenshot.png, then uncomment the next line. -->
-<!-- ![Dashboard screenshot](docs/screenshot.png) -->
+![Dashboard screenshot — actual vs predicted with a 14-day forecast and what-if controls](docs/screenshot.png)
 
 ---
 
